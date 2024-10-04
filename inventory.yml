@@ -6,7 +6,7 @@ all:
         cvaas_token: "PUT_TOKEN_HERE"
       hosts: 
         cvp1:
-          ansible_host: www.arista.io
+          ansible_host: www.cv-prod-us-central1-c.arista.io
           # Username is *always* cvaas when using tokens. The unique token will map to the correct tenant
           ansible_user: cvaas
           ansible_connection: httpapi

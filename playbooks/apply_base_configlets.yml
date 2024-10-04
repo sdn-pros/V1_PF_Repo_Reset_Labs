@@ -4,7 +4,7 @@
 
   vars_files:
     - ../vars/CVP_Model.yml
-    
+
   tasks:
     - name: Apply baseline configlets
       arista.cvp.cv_device_v3:
